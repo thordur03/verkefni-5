@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?rx22zr");
+  src: url("../fonts/icomoon.eot?rx22zr#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?rx22zr") format("truetype"), url("../fonts/icomoon.woff?rx22zr") format("woff"), url("../fonts/icomoon.svg?rx22zr#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-main_courses:before {
+  content: "\e900";
+}
+
+.icon-starters:before {
+  content: "\e901";
+}
+
+.icon-deserts:before {
+  content: "\e902";
+}
+
+.icon-bread:before {
+  content: "\e903";
+}
+
+.icon-my-recipes .path1:before {
+  content: "\e904";
+  color: #f15b2b;
+}
+
+.icon-my-recipes .path2:before {
+  content: "\e905";
+  margin-left: -2.6201171875em;
+  color: #951a1d;
+}
+
+.icon-my-recipes .path3:before {
+  content: "\e906";
+  margin-left: -2.6201171875em;
+  color: #f15b2b;
+}
+
+.icon-my-recipes .path4:before {
+  content: "\e907";
+  margin-left: -2.6201171875em;
+  color: #951a1d;
+}
+
+.icon-my-recipes .path5:before {
+  content: "\e908";
+  margin-left: -2.6201171875em;
+  color: #f15b2b;
+}
+
+.icon-home:before {
+  content: "\e909";
+}
+
+.icon-pacman:before {
+  content: "\e916";
+}
+
+.icon-bubbles2:before {
+  content: "\e96d";
+}
+
+.icon-glass2:before {
+  content: "\e9a1";
+}
+
+.icon-list2:before {
+  content: "\e9bb";
+}
+
+.icon-star-full:before {
+  content: "\e9d9";
+}
+
+.icon-smile2:before {
+  content: "\e9e2";
+}
+
+.icon-sad2:before {
+  content: "\e9e6";
+}
+
+.icon-checkmark:before {
+  content: "\ea10";
+}
+
+.icon-facebook2:before {
+  content: "\ea91";
+}
+
+.icon-spotify:before {
+  content: "\ea94";
+}
+
+.icon-twitter:before {
+  content: "\ea96";
+}
+
+.icon-youtube:before {
+  content: "\ea9d";
+}
+
+.icon-github:before {
+  content: "\eab0";
+}
+
+.icon-soundcloud2:before {
+  content: "\eac4";
+}
+
+.icon-youtube,
+.icon-github,
+.icon-twitter,
+.icon-facebook2 {
+  color: white;
+  font-size: 1.3em;
+}
+/*# sourceMappingURL=iconfonts.css.map */
