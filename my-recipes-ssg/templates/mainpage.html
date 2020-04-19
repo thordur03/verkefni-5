@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- <link rel="stylesheet" href="main.css"> -->
+</head>
+<body class="container">
+    
+    <header class="headcol-2">
+        <div>
+            <a href="index.html">
+                <img src="img/my-recipes.svg" width="50%" title="myrecipes loago">
+            </a>
+        </div>
+        <nav class="topnav">
+            <ul class="topmenu">
+                <li><a href="bread.html"><span class="icon-bread"></span> Bread</a></li>
+                <li><a href="#"><span class="icon-starters"></span> Starters</a></li>
+                <li><a href="#"><span class="icon-main_courses"></span> Main Courses</a></li>
+                <li><a href="#"> <span class="icon-deserts"></span> Desserts</a></li>
+                <li><a href="#"><span class="icon-glass2"></span> Drinks</a></li>
+            </ul>
+        </nav>
+
+    {% block content %} {% endblock %}
+
+    <br>
+    {% include "socialbutts.html" %}
+</body>
+</html>

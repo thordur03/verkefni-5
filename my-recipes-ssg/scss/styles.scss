@@ -1,0 +1,57 @@
+.card {
+    background-color: rgb(0, 253, 232);
+    border-radius: .4em;
+    padding: 1em;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.stretch {
+    display: grid;
+    justify-content: stretch;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3em;
+    padding: 1em;
+    background-color: rgb(0, 253, 232);
+}
+.b-icon{
+    background: url('../img/breadAnime.svg') bottom right no-repeat;
+}
+.u-icon{
+    background: url('../img/breadAnime.svg') top right no-repeat;
+}
+.mybutton {
+    background: rgb(0, 4, 58);
+    color: rgb(183, 233, 225);
+    border: 0;
+    font-size: 0.75em;
+    margin: .3em 0;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: .2em;
+    height: auto;
+    box-shadow: 0 0 transparent inset;
+}
+.button {
+    background: rgb(207, 179, 179);
+    border: 0;
+    margin: .3em 0;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: .2em;
+    height: auto;
+    box-shadow: 0 0 transparent inset;
+}
+.topmenu a {
+    display: block;
+    padding: .9em 1em;
+    color: #286fc0;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: left;
+}
+@import 'layout', 'iconfonts', 'auglysing';
